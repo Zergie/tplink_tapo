@@ -2,6 +2,10 @@
 
 This is a Klipper module for controlling the TP-Link Tapo P100 Plugs.
 
+### Installation
+
+Clone this repo to your $Home folder.
+
 ### Configuration
 
 ```
@@ -22,7 +26,7 @@ path: ~/tplink_tapo
 origin: https://github.com/Zergie/tplink_tapo.git
 primary_branch:main
 managed_services: klipper
-env: ~/mobileraker-env/bin/python
+env: ~/klippy-env/bin/python
 requirements: requirements.txt
 install_script: install.sh
 ```
